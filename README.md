@@ -3,6 +3,7 @@ echo "# uiautomator2Demo" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
+
 # 重命名当前分支为 main
 -M 是 --move --force 的缩写。
 --move：用于重命名分支。
@@ -14,8 +15,6 @@ git branch -M main
 #origin - 这是远程仓库的默认名称（你可以使用其他名称，但origin是约定俗成的标准名称）
 https://github.com/chenzizhou/uiautomator2Demo.git - 这是远程仓库的URL地址
 git remote add origin https://github.com/chenzizhou/uiautomator2Demo.git
-
-
 
 **这条命令 git push -u origin main 是 Git 中用于将本地代码推送到远程仓库的重要命令。让我为您详细解释：
 命令分解：
