@@ -26,3 +26,25 @@ main - 要推送的本地分支名称
 将本地的 main 分支推送到名为 origin 的远程仓库
 -u 参数会在推送的同时建立本地分支与远程分支的关联关系，这样以后在这个分支上只需使用 git push 或 git pull 而不需要再指定远程仓库和分支名**
 git push -u origin main
+
+学习文档
+https://github.com/openatx/uiautomator2
+安装
+前置安装：
+
+        - pip install pbr
+
+        - pip install pywin32
+
+        - pip install humanize
+
+1. pip 安装
+            pip install uiautomator2==2.7.3， 或者下载源码安装 ，本人使用 2.7.3版本（其他版本可能会有各种异常）
+            pip install weditor==0.4.3,  安装页面元素定位工具
+            创建快捷方式: weditor --shortcut
+2. 其他依赖工具 
+            官方文档有自动化配置：python -m uiautomator2 init, 可是公司网络不支持下载，下面附件中我给出已配置好的脚本和安装文件，连上手机下载解压install.rar后, 直接执行install_ua2.cmd命令即可将往手机中push所有依赖包,并启动必要服务。
+            这部分包括： app-uiautomator.apk， app-uiautomator-test.apk, atx-agent, minicap, minitouch, 
+3. 修改源码，防止在线下载导致启动失败
+       修改源文件：`venv\Lib\sit-packages\uiautomator2\__init__.py`, 注释掉如下几行
+
