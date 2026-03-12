@@ -47,4 +47,8 @@ https://github.com/openatx/uiautomator2
             这部分包括： app-uiautomator.apk， app-uiautomator-test.apk, atx-agent, minicap, minitouch, 
 3. 修改源码，防止在线下载导致启动失败
        修改源文件：`venv\Lib\sit-packages\uiautomator2\__init__.py`, 注释掉如下几行
+   #initer =Initer(ad)
+   #...
+   #initer.install()
+   
 
