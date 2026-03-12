@@ -50,3 +50,8 @@ https://github.com/openatx/uiautomator2
    
 元素定位
 pip install weditor
+xpath
+层级
+页面相对位置
+点击操作
+
