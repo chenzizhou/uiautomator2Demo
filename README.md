@@ -29,6 +29,7 @@ git push -u origin main
 
 学习文档
 https://github.com/openatx/uiautomator2
+https://github.com/openatx/uiautomator2/blob/master/README_CN.md
 安装
 前置安装：
         - pip install pbr
